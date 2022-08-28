@@ -1,0 +1,15 @@
+void main()
+{
+char str[]='abcd';
+int i,j,len;
+len=strlen(str);
+for(i=0;i<len;i++)
+{
+for(j=0;j<=1;j++)
+{
+printf("%c",str[j]);
+{
+printf("\n");
+}
+getch();
+}
