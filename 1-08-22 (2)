@@ -1,0 +1,21 @@
+#include<stdio.h>
+int fact(int n)
+{
+if(n==0){
+return 1;
+}
+if(n<0)
+{
+return 0;
+}
+if(n>0){
+return(n*fact(n-1));
+}
+}
+main()
+{
+int n,f;
+scanf("%d",&n);
+f=fact(n);
+printf("The factorial of %d="%d",n,f);
+}
